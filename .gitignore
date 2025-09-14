@@ -1,0 +1,29 @@
+# Ignore everything in the notes directory
+notes/
+
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ignore vectorstore files
+*.json
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log

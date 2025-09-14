@@ -1,0 +1,5 @@
+pypdf2==3.0.1
+ollama==0.1.7
+sentence-transformers==2.2.2
+numpy
+scikit-learn
