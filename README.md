@@ -101,9 +101,9 @@ The system uses a **two-tier approach**:
 
 ```
 rag-model/
-├── universal_rag.py          # Main universal RAG system
-├── enhanced_rag.py           # Enhanced RAG system
-├── requirements.txt          # Python dependencies
+├── universal_rag.py         # Main universal RAG system
+├── enhanced_rag.py          # Enhanced RAG system
+├── requirements.txt         # Python dependencies
 ├── .gitignore               # Git ignore file
 ├── README.md                # This documentation
 ├── notes/                   # Directory for your study materials (PDFs)
