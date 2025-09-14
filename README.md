@@ -141,8 +141,9 @@ Install with: `ollama pull <model-name>`
 - **PDF**: Lecture slides, scanned notes, textbooks, lab reports
 - **TXT**: Text files, code, notes (if you want to add support)
 
-## Example
+## Sample Output
 
+```
 ======================================================================
 UNIVERSAL COMPUTER ARCHITECTURE STUDY ASSISTANT
 ======================================================================
@@ -151,29 +152,19 @@ Ask questions about Computer Architecture!
 Type 'quit' to exit, 'help' for examples
 ======================================================================
 
-Your question: What is a multiplexor
+Your question: What is a cache?
 
 Thinking...
 
 Answer:
 --------------------------------------------------
-Based on the context provided by the student's notes, a multiplexor is an electronic circuit that selects one of several input signals and sends it to a output. In the context of computer architecture, a multiplexor is used in an adder to give the option of selecting either the original binary number or its inverted value, depending on the Binvert signal. The figure provided in the notes shows how this works.
-
-However, there are some additional details and concepts that can help expand on this answer. A multiplexor is essentially a simple electronic switch that selects one of several inputs based on a control signal. In the context of computer architecture, multiplexors are used to implement various logical operations, such as AND, OR, and NOT.
-
-In addition to the information provided in the notes, there are a few key concepts related to multiplexors that can help deepen understanding:
-
-1. Multiplexors can be used to implement binary arithmetic operators, such as addition and subtraction. By using a multiplexor to select either the original binary number or its inverted value, these operations can be performed in a simple and efficient manner.
-2. The use of multiplexors in computer architecture is based on the principle of two's complement representation, which is a way of representing integers in binary form. In this system, each bit of an integer is represented by a power of 2 (i.e., 0, 1, 2, 4, 8, etc.), and the most significant bit (MSB) represents the sign of the number. By inverting the MSB and adding 1, the two's complement representation can be obtained.
-3. The simplicity of the hardware design of a two's complement adder helps explain why two's complement representation has become the universal standard for integer computer arithmetic. This is because the use of two's complement representation allows for easy implementation of addition and subtraction operations using simple electronic circuits, such as multiplexors.
-4. In addition to their use in adders, multiplexors can also be used in other logical circuits, such as decoders and encoders. These circuits are used to implement various logical operations, such as encoding binary data for storage or decoding it for retrieval.
-
-In summary, a multiplexor is an electronic circuit that selects one of several input signals and sends it to a output. In computer architecture, multiplexors are used to implement binary arithmetic operators, such as addition and subtraction, using the principle of two's complement representation. By understanding how multiplexors work and their role in computer architecture, programmers can optimize the performance of their programs and improve their overall efficiency.
+A cache is a small, fast memory storage location used to store frequently accessed data or instructions in a computer system. It helps improve performance by reducing the time it takes to access data from slower main memory...
 
 Sources from your notes (3 chunks):
-  1. Section 7.5 - CS 25000_ Computer Architecture _ zyBooks.pdf (chunk 7)
-  2. Section 1.1 - CS 25000_ Computer Architecture _ zyBooks.pdf (chunk 21)
-  3. Section 1.1 - CS 25000_ Computer Architecture _ zyBooks.pdf (chunk 22)
+  1. Section 1.1 - CS 25000_ Computer Architecture _ zyBooks.pdf (chunk 21)
+  2. Section 1.1 - CS 25000_ Computer Architecture _ zyBooks.pdf (chunk 22)
+  3. Section 1.1 - CS 25000_ Computer Architecture _ zyBooks.pdf (chunk 23)
+```
 
 ---
 
